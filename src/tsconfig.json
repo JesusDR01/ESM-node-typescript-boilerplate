@@ -4,12 +4,11 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "allowJs": true,
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
       "*/": ["./src/*"]
-    },
+    }
   }
 }
-
-
