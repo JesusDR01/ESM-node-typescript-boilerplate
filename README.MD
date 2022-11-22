@@ -8,8 +8,8 @@ The following are configured:
 - Yarn
 - Jest
 - ESLINT
-- Custom base path with `@` for `src/`
-- Auto reload with `ts-node-dev`
+- Custom base path starting from `src/`. Example: `import { hi } from 'models/testfile'`
+- Auto reload with `nodemon` and building with webpack
 - Prettier
 
 
@@ -19,3 +19,4 @@ And the following scripts:
 - `test` - runs tests using Jest
 - `start` - compiles the server, then uses `node` to run it from the compiled files
 - `dev` - runs the server in dev mode, and automatically refreshes
+- `lint` - runs ESLint
