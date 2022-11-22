@@ -5,6 +5,7 @@
     "node": ">=14.x"
   },
   "main": "./src/server.ts",
+  "repository": "https://github.com/JesusDR01/ESM-node-typescript-boilerplate",
   "scripts": {
     "dev": "TS_NODE_PROJECT=\"src/tsconfig.json\"  nodemon -e ts --exec ts-node -r tsconfig-paths/register src/server.ts",
     "build": "yarn lint && TS_NODE_PROJECT=\"tsconfig-webpack-config.json\"  webpack ",
